@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR_Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+   
+</head>
+<body>
+    <main>
+     <!-- Top Section -->
+    <section class="top-section vh-100 position-relative w-100" id="top"tabindex="0">
+        <div class="container-fluid vh-100  top-section bg-img img-fluid px-0">
+        <div class="container-fluid  linear_gradient py-2">
+            <!-- <img src="images/sragencywhite3.png" alt="sragency" width="250px"> -->
+            <img src="images/logo1.png" alt="sragency" width="80px">
+            <img src="images/Agen.png" alt="sragency" width="250px">
+            <!-- <p class="text-grad fw-bold font-25 mb-0 d-inline">Agency</p> -->
+        </div>
+        <div class="text-center text-light mt-3">
+            <img src="images/swiggy.png" alt="swiggy-logo" width="140px"><br>
+            <!-- <img src="images/swde.png" alt="swiggy" width="600px"> -->
+            <h2 class="fw-bold">SWIGGY DELIVERY EXECUTIVE</h2>
+            <h2 class="fw-bold">WE ARE HIRING !</h2>
+            <button class="border-0 rounded-pill px-5 py-2 my-2 pe-none"><p class="vw1 pb-0 mb-0 text-brown fw-bold">Earn up to *20,000 to 40,000 per month</p></button><br>
+            <button class="border-0 rounded-3 px-4 py-2 mt-4 contrast-bg px-5 py-3" onclick="formCont()"><a href="#joinus" class="text-decoration-none text-light fw-bold ">Apply Now</a></button> 
+        </div>       
+            <img src="images/deliveryboy_png.png" alt="delivery_boy_image" width="300px"  class="position-absolute bottom-0 end-0 deliver-boy-scooter">
+        </div>    
+    </section>
+   <!-- Join Us -->
+    <section class="join-us-section w-100">
+        <div class="container-fluid my-5" id="joinus" tabindex="1">
+            <h2 class="text-center text-cream fw-bold">Wanna Join Us?</h2>
+            <div class="container">
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="my-5 col-lg-6 card form-section contrast-bg">
+                <form id="myForm" enctype="multipart/form-data" class="p-3 gap-3 rounded-3 w-100 text-light">
+                    <h4 class="mb-4 mt-3 text-center fw-bold">REGISTER HERE</h4>
+                    <div class="mb-3">
+                        <label for="empname" class="form-label mb-1">Name:</label>
+                        <input type="text"  class="form-control py-2 my-2" name="empname" id="empname" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="Number" class="form-label mb-1">Phone No:</label>
+                        <input type="text" class="form-control py-2 my-2" name="phoneno" id="phoneno" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="mb-3">
+                       <label for="aadhaarInput"  class="form-label mb-1">Aadhaar Card:</label>
+                        <input id="aadhaarInput" class="form-control py-2 my-2" type="file" name="aadhaarInput" required/>
+                    </div>
+                    <div class="text-center py-3">
+                        <button type="submit" class="btn light-bg text-light fw-bold ">Submit</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Requirement Section -->
+      <section class="contrast-bg w-100">
+        <div class="container mb-5 pb-4">
+            <div class="row d-flex justify-content-around">
+                <div class="col-12 p-3">
+                    <div class="text-center bg-transparent border-0 my-4 text-light ">
+                        <h4 class="mb-5 mt-3 text-center fw-bold">REQUIREMENTS</h4>
+                    </div>
+                    <div class=" pb-5" >
+                        <div class="row text-center gap-3 d-flex justify-content-around">
+                            <div class="px-3 col-lg-2 col-md-3 col-12 fw-bold text-brown" data-aos-duration="1500" data-aos="flip-up">
+                                <div class="card py-3">
+                                    <i class="mb-1 fs-md-2 fs-1 fa-solid fa-address-card"></i><br>Aadhar card</div>
+                                </div>
+                            <div class="px-3 col-lg-2 col-md-3 col-12 fw-bold text-brown" data-aos-duration="1500" data-aos="zoom-in-up">
+                                <div class="card py-3">
+                                    <i class="mb-1 fs-md-2 fs-1 fa-solid fa-money-check"></i><br>Pan Card</div>
+                                </div>
+                            <div class="px-3 col-lg-2 col-md-3 col-12 fw-bold text-brown"data-aos-duration="1500" data-aos="zoom-out">
+                                <div class="card py-3">
+                                    <i class="mb-1 fs-md-2 fs-1 fa-solid fa-id-card"></i><br>Driving Licence</div>
+                                </div>
+                            <div class="px-3 col-lg-2 col-md-3 col-12 fw-bold text-brown"data-aos-duration="1500" data-aos="zoom-in-down">
+                                <div class="card py-3">
+                                    <i class="mb-1 fs-md-2 fs-1 fa-solid fa-money-check-dollar"></i><br>Bank passbook</div>
+                                </div>
+                            <div class="px-3 col-lg-2 col-md-3 col-12 fw-bold text-brown" data-aos-duration="1500" data-aos="flip-down">
+                                <div class="card py-3">
+                                    <i class="mb-1 fs-md-2 fs-1 fa-solid fa-mobile-screen-button" ></i><br>Android mobile</div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Benefits Section -->
+     <section class="w-100">
+        <div class="container-fluid my-5 pb-5">
+            <h2 class="text-center text-cream fw-bold mb-5">Benefits</h2>
+        <div class="row px-5">
+            <div class="col-md-4 my-md-0 my-3 px-3" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-quad">
+                <div class="card contrast-bg text-light h-100">
+                    <div class="card-header pb-5 text-center border-0">
+                       <i class="fs-1 my-4 fa-solid fa-wallet"></i><br>
+                        Weekly Payout</div>
+                </div>
+            </div>
+            <div class="col-md-4 my-md-0 my-3 px-3"data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-quad">
+                <div class="card contrast-bg text-light h-100">
+                    <div class="card-header pb-5 text-center border-0">
+                         <i class="fs-1 my-4 fa-solid fa-clock"></i><br>
+                        Shifts - FT / PT / Weekend (As per Swiggy norms)
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-md-0 my-3 px-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-quad">
+                <div class="card contrast-bg text-light h-100">
+                    <div class="card-header pb-5 text-center border-0">
+                       <i class="fs-1 my-4 fa-solid fa-user-shield"></i><br>
+                        Insurance of 6 lakhs for you and your family
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </main>
+    <!-- Footer Section -->
+     <section class="w-100">
+        <div class="container-fluid contrast-bg px-lg-0 px-5">
+            <div class="container-lg container-fluid row m-auto pt-5 ">
+                <div class="col-12 col-sm-6 mb-4">
+                    <h3 class="text-white"  data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" onclick="topPage()" role="button">S R Agency</h3>
+                    <address class="Location_text_sub text-light" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"> S R Agency Swiggy hiring office,<br> No 34, Thyagaraja Street, Raja Nagar,<br>
+                    Orleampet, Puducherry-605013</address>
+                    <div class=" text-start mt-md-0 mt-4" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+                            <h5 class=" text-white"><i class="fa-solid fa-location-dot text-light me-3"></i></i>LOCATION</h5>
+                            <a href="https://maps.app.goo.gl/XRTkmXe52BbcPtCx6" class="text-light" style="text-decoration: none;">Click me for exact location</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 text-start text-lg-end">
+                    <div class="row">
+                         <div class="col-12 col-md-6 text-start " data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+                            <h5 class=" text-white"><i class="fa-solid fa-phone me-3"></i>CALL US </h5>
+                            <p class="Location_text_sub footer_text d-lg-flex  d-flex justify-content-start text-light"><a href="tel:+9092220345" class="text-decoration-none text-light">9092220345</a>
+                            </p>
+                        </div>
+                         <div class="col-12 col-md-6 text-start mt-md-0 mt-4" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+                            <h5 class=" text-white"><i class="fa-solid fa-envelope me-3"></i>MAIL US</h5>
+                             <p class="Location_text_sub footer_text d-lg-flex  d-flex justify-content-start text-light"><a href="mailto:sramudharasan@gmail.com" class="text-decoration-none text-light">sramudharasan@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 mt-4">
+                        <div class="col-12 col-md-6 text-start " data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+                            <h5 class="text-white">FOLLOW US ON</h5>
+                             <div class="d-flex justify-content-start my-6">
+                                <i class="fa-brands text-light fs-3 me-4 fa-square-instagram"></i>
+                                <i class="fa-brands text-light fs-3 me-4 fa-facebook"></i>
+                                <i class="fa-brands text-light fs-3 me-4 fa-square-whatsapp"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 row border-top py-4" >
+                <div class="text-light col-sm-6 text-center">Copyright&copy;2024 SR Agency</div>
+                <div class="text-light col-sm-6 text-center">D &amp; D by <span>Arjans</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <span class="badge light-bg" id="upBtn">
+        <i class="fa-solid fa-angles-up"></i>
+        </span>
+    </section> -->
+</body>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>AOS.init();
+    function topPage() {
+      var containerTop = document.getElementById('top');
+      containerTop.focus();
+    }
+function formCont() {
+  var container = document.getElementById('joinus');
+  container.focus();
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

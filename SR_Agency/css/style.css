@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+/* Root variables */
+:root{
+--main-color:#2f1e0e;
+--sub-color:#ffc284;
+}
+.top-section{
+    background-color: var(--main-color);
+    height:400px
+}
+.top-section h2{
+    font-size: 5vw;
+}
+.bg-img{
+    background-image: linear-gradient(60deg,
+                rgba(255, 255, 255, 0.75),
+                rgb(255, 87, 3)),url("../images/uilding_img2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-size: 100% 80%;
+}
+.bg-img2{
+    background-image: url(../images/deliveryboy_png.png);
+
+}
+.contrast-bg{
+    background-color: #2f1e0e;
+}
+.light-bg{
+    background-color: #955425;
+}
+/* Text */
+.vw1{
+    font-size: 2vw;
+}
+.vw3{
+    font-size: 3vw;
+}
+.text-brown{
+    color: #2f1e0e;
+}
+.text-cream{
+    color:#955425;
+}
+/* Helpers */
+
+.text-decoration-none{
+    text-decoration: none;
+}
+.linear_gradient{
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background: linear-gradient(to right, #ffffff45, #6b1a05);
+}
+.deliver-boy-scooter{
+transform: rotateY(150deg);
+    animation-timing-function: ease-in;
+  animation: mymove 8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.text-grad{
+    background: linear-gradient(to bottom ,#761414,#dadedd); 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.font-25{
+    font-size: 75px;
+}
+/* #up-btn{
+
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+}
+
+#upBtn:hover {
+  background-color: #0056b3;
+} */
+
+@keyframes mymove {
+  from {left: 0;}
+  to {left: 80%;}
+}
+/* Media Query */
+@media screen and (max-width:830px){
+    .deliver-boy-scooter{
+        width:250px !important;
+    }
+
+}
+@media screen and (max-width:720px){
+    .rounded-pill p{
+        font-size: 3vw;
+    }
+
+}
+@media screen and (max-width:650px){
+    .deliver-boy-scooter{
+        width:200px !important;
+    }
+}
