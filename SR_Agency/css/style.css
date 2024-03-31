@@ -12,6 +12,7 @@ body{
 .top-section{
     background-color: var(--main-color);
 /*     height:400px */
+    height:88vh;
 }
 .top-section h2{
     font-size: 5vw;
@@ -23,7 +24,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: soft-light;
-    background-size: 100% 87%;
+    background-size: 100% 90%;
 }
 .bg-img2{
     background-image: url(../images/deliveryboy_png.png);
