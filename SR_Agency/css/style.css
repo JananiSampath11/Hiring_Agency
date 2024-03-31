@@ -20,9 +20,9 @@ body{
                 rgba(255, 255, 255, 0.75),
                 rgb(255, 87, 3)),url("../images/uilding_img2.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-blend-mode: soft-light;
-    background-size: 100% 80%;
+    background-size: 100% 88%;
 }
 .bg-img2{
     background-image: url(../images/deliveryboy_png.png);
@@ -62,7 +62,7 @@ transform: rotateY(150deg);
   /* animation: mymove 8s; */
   animation-fill-mode: forwards;
   /* animation-iteration-count: infinite; */
-   width: 100%; /* Make the image responsive */
+   /* width: 100%; */
     max-width: 250px; /* Limit the maximum width */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
@@ -130,6 +130,10 @@ transform: rotateY(150deg);
     .logo{
         max-width:40px !important;
     }
+     @keyframes mymove {
+  from {left: 0;}
+  to {left: 70%;}
+}
 }
 @media screen and (max-width:550px){
     .home-cont{
@@ -139,20 +143,28 @@ transform: rotateY(150deg);
         width:150px !important;
     }
     .home-cont h2{
-        font-size: 32px;
+        font-size: 34px;
     }
+     @keyframes mymove {
+  from {left: 0;}
+  to {left: 65%;}
+}
 }
 @media screen and (max-width:320px){
     .font-25{
-        font-size: 28px;
+        font-size: 31px;
     }
     .logo{
-        max-width:35px !important;
+        max-width:43px !important;
     }
      .deliver-boy-scooter{
         width:120px !important;
     }
      .home-cont h2{
-        font-size:28px;
+        font-size:30px;
     }
+    @keyframes mymove {
+  from {left: 0;}
+  to {left: 59%;}
+}
 }
