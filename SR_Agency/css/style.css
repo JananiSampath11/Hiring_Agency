@@ -21,7 +21,7 @@ body{
                 rgba(255, 255, 255, 0.75),
                 rgb(255, 87, 3)),url("../images/uilding_img2.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-blend-mode: soft-light;
     background-size: 100% 88%;
 }
