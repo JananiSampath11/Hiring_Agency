@@ -23,7 +23,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: soft-light;
-    background-size: 100% 88%;
+    background-size: 100% 92%;
 }
 .bg-img2{
     background-image: url(../images/deliveryboy_png.png);
@@ -55,7 +55,7 @@ body{
 }
 .linear_gradient{
     /* background-image: linear-gradient(to right, red , yellow); */
-       background: linear-gradient(to right, #613a1b, #6b1a05);
+       background: linear-gradient(to right, #a56a3b, #6b1a05);
 
 }
 .deliver-boy-scooter{
