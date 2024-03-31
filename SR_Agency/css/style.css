@@ -55,7 +55,8 @@ body{
 }
 .linear_gradient{
     /* background-image: linear-gradient(to right, red , yellow); */
-    background: linear-gradient(to right, #ffffff45, #6b1a05);
+       background: linear-gradient(to right, #613a1b, #6b1a05);
+
 }
 .deliver-boy-scooter{
 transform: rotateY(150deg);
