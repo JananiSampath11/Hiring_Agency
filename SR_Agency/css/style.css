@@ -12,7 +12,7 @@ body{
 .top-section{
     background-color: var(--main-color);
 /*     height:400px */
-    height:98vh;
+    height:96vh;
 }
 .top-section h2{
     font-size: 5vw;
