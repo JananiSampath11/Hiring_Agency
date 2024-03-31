@@ -35,7 +35,7 @@ body{
     background-color: #955425;
 }
 /* Text */
-.vw1{
+.vw2{
     font-size: 2vw;
 }
 .vw3{
@@ -58,18 +58,25 @@ body{
 }
 .deliver-boy-scooter{
 transform: rotateY(150deg);
-    animation-timing-function: ease-in;
-  animation: mymove 8s;
+    /* animation-timing-function: ease-in; */
+  /* animation: mymove 8s; */
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
+   width: 100%; /* Make the image responsive */
+    max-width: 250px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: mymove 8s infinite; /* Add infinite animation */
+    animation-timing-function: ease-in;
+    transform: rotateY(150deg);
 }
 .text-grad{
-    background: linear-gradient(to bottom ,#761414,#dadedd); 
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color:#d3d6d8 !important;
 }
 .font-25{
-    font-size: 75px;
+    font-size: 38px;
 }
 /* #up-btn{
 
@@ -89,17 +96,23 @@ transform: rotateY(150deg);
 #upBtn:hover {
   background-color: #0056b3;
 } */
-
+.logo{
+    max-width:50px;
+}
 @keyframes mymove {
   from {left: 0;}
-  to {left: 80%;}
+  to {left: 75%;}
 }
 /* Media Query */
+@media screen and (max-width:950px){
+    .deliver-boy-scooter{
+        width:200px !important;
+    }
+}
 @media screen and (max-width:830px){
     .deliver-boy-scooter{
-        width:250px !important;
+        width:200px !important;
     }
-
 }
 @media screen and (max-width:720px){
     .rounded-pill p{
@@ -107,8 +120,39 @@ transform: rotateY(150deg);
     }
 
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:656px){
     .deliver-boy-scooter{
-        width:200px !important;
+        width:180px !important;
+    }
+    .font-25{
+        font-size: 30px;
+    }
+    .logo{
+        max-width:40px !important;
+    }
+}
+@media screen and (max-width:550px){
+    .home-cont{
+        margin-top: 60px !important;
+    }
+     .deliver-boy-scooter{
+        width:150px !important;
+    }
+    .home-cont h2{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:320px){
+    .font-25{
+        font-size: 28px;
+    }
+    .logo{
+        max-width:35px !important;
+    }
+     .deliver-boy-scooter{
+        width:120px !important;
+    }
+     .home-cont h2{
+        font-size:28px;
     }
 }
